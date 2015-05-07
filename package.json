@@ -24,9 +24,10 @@
   "author": "kenji-special",
   "license": "MIT",
   "dependencies": {
-
+    "react": "^0.13.2"
   },
   "devDependencies": {
+    "st": "^0.5.3",
     "babel-eslint": "^3.0.1",
     "babelify": "^6.0.2",
     "browserify": "^9.0.8",
