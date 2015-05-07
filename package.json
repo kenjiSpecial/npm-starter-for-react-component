@@ -1,0 +1,40 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "description": "A React component || ",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "scripts": {
+    "test": "eslint index.js src",
+    "start": "watchify example/index.js -o example/bundle/site.js & st -nc",
+    "sass-watch": "gulp watch",
+    "st": "st -nc"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "kenji-special",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.0.1",
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.8",
+    "node-reset-scss": "^1.0.1",
+    "uglify-js": "^2.4.20",
+    "watchify": "^3.1.2",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-sass": "^2.0.0"
+  }
+}
